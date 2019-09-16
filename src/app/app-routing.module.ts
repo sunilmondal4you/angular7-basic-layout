@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactusComponent } from './contactus/contactus.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 
 const routes: Routes = [
   { path: '',         redirectTo:'./home/home.component', pathMatch: 'full' },
