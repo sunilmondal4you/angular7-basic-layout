@@ -1,14 +1,5 @@
 <div>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <a class="navbar-brand" href="#">LOGO
-            <!-- <img src="bird.jpg" alt="Logo" style="width:40px;"> -->
-        </a>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item" *ngFor="let navObj of linkList">
-            <a class="nav-link" routerLink="{{navObj.routLink}}">{{navObj.title}}</a>
-          </li>
-        </ul>
-    </nav>
+    <app-header></app-header>
 
     <router-outlet></router-outlet>
 
