@@ -10,9 +10,4 @@ export class AppComponent {
 
   constructor() { };
 
-  linkList = [
-    {"title": "HOME",       "routLink":"/home"},
-    {"title": "ABOUT",      "routLink":"/about"},
-    {"title": "CONTACT US", "routLink":"/contactus"},
-  ];
 }
