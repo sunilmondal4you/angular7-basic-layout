@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular7-basic-layout';
+
+  constructor() { };
+
+  linkList = [
+    {"title": "HOME",       "routLink":"/home"},
+    {"title": "ABOUT",      "routLink":"/about"},
+    {"title": "CONTACT US", "routLink":"/contactus"},
+  ];
 }
