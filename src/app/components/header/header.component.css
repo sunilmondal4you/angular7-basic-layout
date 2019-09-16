@@ -1,0 +1,6 @@
+.nav-link:active, .nav-link:focus, .nav-link.active-link{
+    background: #3cdbff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
